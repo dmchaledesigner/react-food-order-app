@@ -1,9 +1,12 @@
-function App() {
+import Header from "./components/layout/Header";
+const App = () => {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Header />
     </div>
   );
 }
+
+
 
 export default App;
